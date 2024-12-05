@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const uploadButton = document.getElementById('uploadButton');
     const statusDiv = document.getElementById('status');
 
-    const ACCESS_TOKEN = 'y0_AgAAAABvOsGVAADLWwAAAAET-vELAADJXC4hu2hNHbrLIbDxwpaPIyXNMw';
+    const ACCESS_TOKEN = 'y0_AgAAAABvOsGVAADLWwAAAAEVZo5mAACBiVZvEktImr37ZGke5jHYAiB9_g';
 
     async function uploadToYandexDisk(file) {
         const uploadUrl = 'https://cloud-api.yandex.net/v1/disk/resources/upload';
